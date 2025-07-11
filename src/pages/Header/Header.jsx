@@ -1,5 +1,5 @@
 import React from 'react';
-import { Ace } from '../../Index';
+import img from '../../../src/assets/ace.png'
 import { useState } from 'react'; 
 
 // const Header = () => {
@@ -37,7 +37,7 @@ import { useState } from 'react';
 //           <div className="relative">
 //   <button className="bg-white text-white rounded-full p-2 flex items-center">
 //     <img
-//       src={Ace} // adjust the path based on your file
+//       src={img} // adjust the path based on your file
 //       alt="cart"
 //       className="h-5 w-5"
 //     />
@@ -100,7 +100,7 @@ const Header = () => {
           {/* Cart Icon */}
           <div className="relative">
             <button className="bg-white text-white rounded-full p-2 flex items-center">
-              <img src={Ace} alt="cart" className="h-5 w-5" />
+              <img src={img} alt="cart" className="h-5 w-5" />
               <span className="absolute -top-1 -right-2 bg-red-500 rounded-full text-xs text-white px-1">
                 0
               </span>
@@ -123,7 +123,7 @@ const Header = () => {
             {/* Cart Icon */}
             <div className="relative mt-2">
               <button className="bg-white text-white rounded-full p-2 flex items-center">
-                <img src={Ace} alt="cart" className="h-5 w-5" />
+                <img src={img} alt="cart" className="h-5 w-5" />
                 <span className="absolute -top-1 -right-2 bg-red-500 rounded-full text-xs text-white px-1">
                   0
                 </span>
