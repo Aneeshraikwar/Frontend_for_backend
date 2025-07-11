@@ -1,6 +1,6 @@
 import React from 'react'
-import './index1.css'
-import Img from '../../../src/assets/ace.png'
+import './index.css'
+import Img from './assets/ace.png'
 import { Link, Outlet } from 'react-router-dom'
 import Header from './pages/Header/Header.jsx'
 import { SignUp14_39Oiq1mg } from './pages/SignUp.jsx'
